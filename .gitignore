@@ -1,0 +1,42 @@
+# Compiled Java classes and ClojureScript output
+classes/
+target/
+out/
+*.class
+*.cljs.cache
+*.clj-kondo/
+*.nrepl-port
+
+# Leiningen
+/.lein-failures
+/.lein-repl-history
+/.lein-nrepl-history
+/.lein-credentials
+
+# Clojure CLI tools (deps.edn)
+.cpcache/
+.nrepl-port
+
+# Node modules (if using ClojureScript)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Editor/IDE files
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+log/
+logs/
+*.log
+
+.clj-kondo
+.lsp
