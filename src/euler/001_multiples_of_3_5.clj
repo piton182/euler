@@ -1,5 +1,6 @@
 (ns euler.001-multiples-of-3-5)
 
+;; solution 1
 (let [n 1000
       nats [3 5]]
   (->> nats
@@ -8,6 +9,7 @@
        (into (hash-set))
        (reduce +)))
 
+;; solution 2
 (let [n 1000
       nats [3 5]]
   (->> (range n)
@@ -16,6 +18,7 @@
                    (+ acc x)
                    acc)))))
 
+;; solution 3
 (let [n 1000
       nats [3 5]]
   (loop [i 0
@@ -26,3 +29,5 @@
                (+ result i)
                result))
       result)))
+
+;; 233168
